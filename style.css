@@ -1,0 +1,15 @@
+﻿	   .headerTitle {width:50%;float: left;height:50px;padding-left:10px;padding-top:15px} /*div*/ 
+           .headerTitle span {color:black;}
+           .headerSearch {text-align:right;padding-right:5px} /*div*/
+           .headerSearch img {height:20px ; width:20px;margin-left:5px ;margin-top:10px}
+           .headerSearch input {width:300px; margin-top:10px}
+           .gridHeader {border:solid 1px #8b8b8b;border-collapse:collapse;margin-top:10px;width:100%}
+           .gridHeader th{background-color:#91b5cc;color:black;text-align:left;height:18px;padding:4px;padding-left:10px;border-bottom:solid 1px #404040;font-weight:normal;font-size:80%;}
+           .gridBody {border: 1px solid gray;overflow:auto; height:75%}
+           .gridBody table{font-size:small;border-bottom:solid 1px #8b8b8b;color:#202020;border-spacing:1px;border-collapse:collapse;width:100%;}
+           
+           .row{cursor:pointer}
+           .onRowClick {cursor: pointer; font-weight: bold;background: white } 
+           .onRowMouseOver {} 
+            tr:nth-child(even) {background: white;height:25px }
+            tr:nth-child(odd) {background: #DFEFFC;height:25px}
