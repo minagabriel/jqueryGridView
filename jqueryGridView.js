@@ -1,4 +1,3 @@
-
 (function ($) {
     $.fn.extend({
         gridView: function (options) {
@@ -308,14 +307,7 @@ function searchGrid(characters, e, divID) {
     };
     $('#' + divID + '_gridBody table tbody tr').not(":contains('" + characters + "')").hide();
 
-    /*************** For Checklist  ******************************************************/
-    if (e.keyCode == 13) {
-        if ($('#btnSqlEntry').length > 0) {
-            $('#btnSqlEntry')[0].click();
-        }
-    }
 
-    /*************************************************************************************/
 
     if (e.keyCode == 8 || 46) {
         $("#" + divID + "_gridBody table tbody tr:contains('" + characters + "')").show();
