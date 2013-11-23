@@ -255,7 +255,7 @@ function reloadGrid(divID, o) {
         }
         else
             if (o.gridBody.selectFirstRow) {
-                $('#' + divID + '_gridBody tr:first').click();
+              
             }
 
     }
