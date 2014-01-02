@@ -1,0 +1,28 @@
+  .hideDateTimePicker{height:1000px}
+        .headerTitle {width:50%;float: left;height:25px;padding-left:10px;padding-top:5px} /*div*/ 
+           .headerTitle span {height:24px;padding:1px;padding-right:5px;padding-left:5px;position:relative;font-size:100%;color:#3a3a3a;font-weight:bold;}
+           .headerSearch {text-align:right;} /*div*/
+           .headerSearch img {height:20px ; width:20px;margin-left:5px ;}
+           .headerSearch input {width:300px;}
+           
+           .gridHeader {border:solid 1px #c0c0c0;border-collapse:collapse;margin-top:10px;width:100%;table-layout:fixed;}
+           .gridHeader th{clear:both; background-color:white;color:black;text-align:left;height:18px;border-bottom:solid 1px #c0c0c0;font-weight:normal;font-size: 90%;font:15px 'Segoe UI', Helvetica, 'Droid Sans', Tahoma, Geneva, sans-serif}
+           
+           .gridBody {border: 1px solid #c0c0c0;overflow-y:hidden; height:auto;background-color:#EEEDED}
+           .gridBody table{font-size:medium;border-bottom:solid 1px #c0c0c0;color:#202020;border-spacing:1px;border-collapse:collapse;width:100%;table-layout:fixed;text-align:left}
+           .gridBody table tbody tr:nth-child(even) {background: #dfeffc;height:25px }
+           .gridBody table tbody tr:nth-child(odd) {background: aliceblue;height:25px}
+           .gridBody table tbody td{clear:both;font-size:80%;}
+           
+           .row{cursor:pointer}
+           .onRowClick {font-weight: bold;} 
+           .arrow-up {
+	            width: 0; 
+	            height: 0; 
+	            border-left: 30px solid transparent;
+	            border-right: 30px solid transparent;
+	            float: left;
+                margin-top: 40px;
+                margin-right: 20px;
+	            border-bottom: 30px solid green;
+            }
