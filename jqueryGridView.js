@@ -311,7 +311,7 @@ function searchGrid(characters, e, divID) {
 
     if (e.keyCode == 8 || 46) {
         $("#" + divID + "_gridBody table tbody tr:contains('" + characters + "')").show();
-        $('#' + divID + '_gridBody table tbody tr:visible').click();
+        //$('#' + divID + '_gridBody table tbody tr:visible').click();
         //console.log("key down");
     }
 
